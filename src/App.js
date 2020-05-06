@@ -36,6 +36,8 @@ class App extends React.Component {
       }
 
       setCurrentUser(userAuth);
+      //use if you want to add a collection in firebase 
+      //addCollectionAndDocuments('collections', collectionsArray.map(({title, items}) => ({title, items})))
     });
   }
 
